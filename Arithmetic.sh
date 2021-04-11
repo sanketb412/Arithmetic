@@ -26,5 +26,4 @@ Equs[P2]="$P2"
 Equs[P3]="$P3"
 Equs[P4]="$P4"
 
-echo "All Solution " ${Equs[@]}
 
