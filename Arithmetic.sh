@@ -31,6 +31,10 @@ Equs[P4]="$P4"
 echo "All Solution " ${Equs[@]}
 
 #UC8
-echo "Desending numbers are as follows:- "
+echo "Descending numbers are as follows:- "
 sort -r <(printf "%s\n" "${Equs[@]}")
+
+#UC9
+echo "Ascending numbers are as follows:- "
+sort -n <(printf "%s\n" "${Equs[@]}")
 
