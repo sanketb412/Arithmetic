@@ -10,4 +10,8 @@ echo "The number Entered are '$a' '$b' and '$c' "
 
 #UC2
 P1=$((($a+$b)*$c))
-echo "The Solutiopn for equ1 is '$P1' "
+echo "The Solution for equ1 is '$P1' "
+
+#UC3
+P2=$(($a+($b*$c)))
+echo "The Solution for equ2 is '$P2' "
