@@ -19,3 +19,7 @@ echo "The Solution for equ2 is '$P2' "
 #UC4
 P3=$(($c+($a/$b)))
 echo "The Solution for equ3 is '$P3' "
+
+#UC5
+P4=$((($a%$b)+$c))
+echo "The Solution for equ4 is '$P4' "
