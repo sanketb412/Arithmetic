@@ -10,16 +10,21 @@ echo "The number Entered are '$a' '$b' and '$c' "
 
 #UC2
 P1=$((($a+$b)*$c))
-echo "The Solution for equ1 is '$P1' "
 
 #UC3
 P2=$(($a+($b*$c)))
-echo "The Solution for equ2 is '$P2' "
 
 #UC4
 P3=$(($c+($a/$b)))
-echo "The Solution for equ3 is '$P3' "
 
 #UC5
 P4=$((($a%$b)+$c))
-echo "The Solution for equ4 is '$P4' "
+
+declare -A Equs
+Equs[P1]="$P1"
+Equs[P2]="$P2"
+Equs[P3]="$P3"
+Equs[P4]="$P4"
+
+echo "All Solution " ${Equs[@]}
+
