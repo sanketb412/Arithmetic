@@ -20,11 +20,17 @@ P3=$(($c+($a/$b)))
 #UC5
 P4=$((($a%$b)+$c))
 
+#UC6
 declare -A Equs
 Equs[P1]="$P1"
 Equs[P2]="$P2"
 Equs[P3]="$P3"
 Equs[P4]="$P4"
 
-#UC5
+#UC7
 echo "All Solution " ${Equs[@]}
+
+#UC8
+echo "Desending numbers are as follows:- "
+sort -r <(printf "%s\n" "${Equs[@]}")
+
